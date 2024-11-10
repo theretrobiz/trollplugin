@@ -14,7 +14,7 @@ Troll Plugin is a plugin for the Minecraft server on the Bukkit/Spigot platform 
 
 Creates 1000 invisible ArmorStands around the specified player.
 
-### `/### `/detrol <player name>`
+### `/detrol <player name>`
 
 Deletes the Armorstands created for the specified player.
 
