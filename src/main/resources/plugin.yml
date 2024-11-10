@@ -1,0 +1,14 @@
+name: TrollPlugin
+version: '1.0'
+main: org.catkat.trollPlugin.TrollPlugin
+api-version: '1.21'
+authors: [ CatKatCat ]
+description: The troll plugin to make minecraft lag for a person send the command /troll <player name> under the player (5 blocks below) 10,000 invisible armorastands will spawn causing lags or crashing from the game
+commands:
+  troll:
+    description: Спавнит 10000 невидимых ArmorStand под игроком.
+    usage: /<troll> <имя-игрока>
+
+  detroll:
+    description: Удаляет все ArmorStand под игроком.
+    usage: /detroll <имя-игрока>
