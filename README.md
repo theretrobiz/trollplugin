@@ -1,4 +1,4 @@
-# # Troll Plugin
+# Troll Plugin
 
 Troll Plugin is a plugin for the Minecraft server on the Bukkit/Spigot platform that allows you to "troll" players by creating a large number of invisible ArmorStands in their location.
 
