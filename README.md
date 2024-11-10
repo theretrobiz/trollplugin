@@ -1,27 +1,23 @@
-# TrollPlugin
+# # Troll Plugin
 
-TrollPlugin - это плагин для сервера Minecraft на платформе Bukkit/Spigot, который позволяет "троллить" игроков, создавая большое количество невидимых ArmorStand'ов в их местоположении.
+Troll Plugin is a plugin for the Minecraft server on the Bukkit/Spigot platform that allows you to "troll" players by creating a large number of invisible ArmorStands in their location.
 
-## Установка
+## Installation
 
-1. Скачайте последний релиз плагина.
-2. Поместите `.jar` файл в папку `plugins` вашего сервера.
-3. Перезапустите сервер или используйте команду `/reload`.
+1. Download the latest release of the plugin.
+2. Place the `.jar` file to the 'plugins` folder of your server.
+3. Restart the server or use the '/reload` command.
 
-## Команды
+## Commands
 
-### `/troll <имя-игрока>`
+### `/troll <player name>`
 
-Создает 1000 невидимых ArmorStand'ов вокруг указанного игрока.
+Creates 1000 invisible ArmorStands around the specified player.
 
-### `/detroll <имя-игрока>`
+### `/### `/detrol <player name>`
 
-УдаляетArmorStand'ы, созданные для указанного игрока.
+Deletes the Armorstands created for the specified player.
 
-## События
+## Events
 
-Плагин также обрабатывает событие повреждения, отменяя урон для ArmorStand'ов, чтобы они оставались на месте и не могли быть разрушены.
-
-## Разработка
-
-Плагин написан на Java и использует API Bukkit. Возможны дальнейшие улучшения и расширения функционала.
+The plugin also handles the damage event, canceling damage for ArmorStan
